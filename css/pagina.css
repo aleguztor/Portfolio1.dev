@@ -1,0 +1,58 @@
+h1.primario{
+    color: #ffffff;
+    font-size: 65px;
+    color: #cb3f77;
+    text-align: center;
+    transition: 0.3s;
+    
+}
+h1.secundario{
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 100;
+    transition: 0.3s;
+
+}
+.boton-empezar{
+    text-decoration: none;
+    color: #8acf65;
+    border: 2px solid #8acf65;
+    text-align: center;
+    padding: 20px 40px;
+    margin-right: 100px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+.boton-empezar:hover{
+    background: #3133aa;
+}
+hr{
+   background-color: #8acf65;
+   border-color: #8acf65;
+   width: 700px;
+   height: 5px;
+   
+}
+@media(max-width: 500px){
+    /*HEADER*/
+    h1.primario{
+        font-size: 47px;
+        margin-top: 12px;
+        text-align: left;
+        transition: 0.3s;
+    }
+    h1.secundario{
+        font-size: 32px;
+        margin-top: 12px;
+        margin-top: 25px;
+        text-align: left;
+        transition: 0.3s;
+    }
+    .boton-empezar{
+       margin-top: 36px;
+       transition: 0.3s;
+       
+        
+    }
+}
