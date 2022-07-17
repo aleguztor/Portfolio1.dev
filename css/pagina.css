@@ -18,9 +18,10 @@ h1.secundario{
     text-decoration: none;
     color: #8acf65;
     border: 2px solid #8acf65;
-    text-align: center;
+    position: static;
+    align-self: center;
     padding: 20px 40px;
-    margin-right: 100px;
+    text-align: center;
     margin-top: 20px;
     transition: 0.3s;
 }
@@ -34,7 +35,7 @@ hr{
    height: 5px;
    
 }
-@media(max-width: 500px){
+@media(max-width: 499px){
     /*HEADER*/
     h1.primario{
         font-size: 47px;
@@ -52,7 +53,7 @@ hr{
     .boton-empezar{
        margin-top: 36px;
        transition: 0.3s;
-       
+       align-self: baseline;
         
     }
 }
