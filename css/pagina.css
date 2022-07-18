@@ -61,8 +61,8 @@ hr{
 @media(max-width: 390px){
     /*HEADER*/
     h1.primario{
-        font-size: 44px;
-        margin-top: 12px;
+        font-size: 35px;
+        margin-top: 18px;
         text-align: left;
         transition: 0.3s;
     }
