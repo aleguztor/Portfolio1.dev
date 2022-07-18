@@ -58,7 +58,9 @@ hr{
         
     }
 }
-@media(max-width: 390px){
+@media only screen (max-device-width : 390px) {
+    /* Styles */
+    
     /*HEADER*/
     h1.primario{
         font-size: 38px;
