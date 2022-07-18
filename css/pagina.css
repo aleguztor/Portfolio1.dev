@@ -38,31 +38,6 @@ hr{
 @media(max-width: 499px){
     /*HEADER*/
     h1.primario{
-        font-size: 47px;
-        margin-top: 12px;
-        text-align: left;
-        transition: 0.3s;
-    }
-    h1.secundario{
-        font-size: 32px;
-        margin-top: 12px;
-        margin-top: 25px;
-        text-align: left;
-        transition: 0.3s;
-    }
-    .boton-empezar{
-       margin-top: 36px;
-       transition: 0.3s;
-       align-self: baseline;
-       /*nuev*/
-        
-    }
-}
-@media only screen (max-device-width : 390px) {
-    /* Styles */
-    
-    /*HEADER*/
-    h1.primario{
         font-size: 38px;
         margin-top: 18px;
         text-align: left;
@@ -70,7 +45,6 @@ hr{
     }
     h1.secundario{
         font-size: 32px;
-        margin-top: 12px;
         margin-top: 32px;
         text-align: left;
         transition: 0.3s;
