@@ -1,255 +1,215 @@
-.item{
-    background: #ffffff;
-    
-    height: 90px;
-    
-    background-color: #3133aa;
-    margin: 0;
-    margin-top: 7px;
-    padding: 0;
-    border-top-right-radius: 200px;   
-    border-bottom-right-radius: 200px;
-    position: absolute;
-    animation-name: moverse;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-out;
-    animation-delay: 0.3s;
+.item {
+  background: #ffffff;
+
+  height: 90px;
+
+  background-color: #3133aa;
+  margin: 0;
+  margin-top: 7px;
+  padding: 0;
+  border-top-right-radius: 200px;
+  border-bottom-right-radius: 200px;
+  position: absolute;
+  animation-name: moverse;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+  animation-delay: 0.3s;
 }
-@keyframes moverse{
-    from{
-        
-        width: 0%;
-    }
-    to{
-        width: 69%;
-    }
-    
+@keyframes moverse {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 69%;
+  }
 }
-.item2{
-    background: #ffffff;
-    background-color: #3f42cb;
-    height: 90px;
-   
-    margin: 0;
-    margin-top: 90px;
-    padding: 0;
-    border-top-right-radius: 200px;   
-    border-bottom-right-radius: 200px;
-    position: absolute;
-    animation-name: moverse2;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-out;
-    
+.item2 {
+  background: #ffffff;
+  background-color: #3f42cb;
+  height: 90px;
+
+  margin: 0;
+  margin-top: 90px;
+  padding: 0;
+  border-top-right-radius: 200px;
+  border-bottom-right-radius: 200px;
+  position: absolute;
+  animation-name: moverse2;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
 }
-@keyframes moverse2{
-    from{
-        
-        width: 0%;
-    }
-    to{
-        width: 92%;
-    }
-    
+@keyframes moverse2 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 92%;
+  }
 }
-.item3{
-    background: #ffffff;
-    background-color: #686ae4;
-    height: 90px;
-   
-    margin: 0;
-    margin-top: 180px;
-    padding: 0;
-    border-top-right-radius: 200px;   
-    border-bottom-right-radius: 200px;
-    position: absolute;
-    animation-name: moverse3;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-out;
-    
+.item3 {
+  background: #ffffff;
+  background-color: #686ae4;
+  height: 90px;
+
+  margin: 0;
+  margin-top: 180px;
+  padding: 0;
+  border-top-right-radius: 200px;
+  border-bottom-right-radius: 200px;
+  position: absolute;
+  animation-name: moverse3;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
 }
-@keyframes moverse3{
-    from{
-        
-        width: 0%;
-    }
-    to{
-        width: 73%;
-    }
-    
+@keyframes moverse3 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 73%;
+  }
 }
-.item4{
-    background: #ffffff;
-    background-color: #cb3f77;
-    height: 90px;
+.item4 {
+  background: #ffffff;
+  background-color: #cb3f77;
+  height: 90px;
+  width: 100%;
+  margin-top: 30px;
+
+  margin-right: auto;
+  border-top-left-radius: 200px;
+  border-bottom-left-radius: 200px;
+  position: absolute;
+  animation-name: moverse4;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+@keyframes moverse4 {
+  from {
     width: 100%;
-    margin-top: 30px;
-    
-    margin-right: auto;
-    border-top-left-radius: 200px;   
-    border-bottom-left-radius: 200px;
-    position: absolute;
-    animation-name: moverse4;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-out;
-   
+    margin-left: 100%;
+  }
+  to {
+    width: 50%;
+    margin-left: 50%;
+  }
 }
-@keyframes moverse4{
-    from{
-        width: 100%;
-        margin-left: 100%;
-    }
-    to{
-        width: 50%;
-        margin-left: 50%;
-    }
-    
+.item5 {
+  background: #ffffff;
+  background-color: #ac3364;
+  height: 90px;
+  width: 100%;
+  margin-top: 120px;
+
+  margin-right: auto;
+  border-top-left-radius: 200px;
+  border-bottom-left-radius: 200px;
+  position: absolute;
+  animation-name: moverse5;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
 }
-.item5{
-    background: #ffffff;
-    background-color: #ac3364;
-    height: 90px;
+@keyframes moverse5 {
+  from {
     width: 100%;
-    margin-top: 120px;
-    
-    margin-right: auto;
-    border-top-left-radius: 200px;   
-    border-bottom-left-radius: 200px;
-    position: absolute;
-    animation-name: moverse5;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-out;
-   
+    margin-left: 100%;
+  }
+  to {
+    width: 20%;
+    margin-left: 80%;
+  }
 }
-@keyframes moverse5{
-    from{
-        width: 100%;
-        margin-left: 100%;
-    }
-    to{
-        width: 20%;
-        margin-left: 80%;
-    }
-    
+.item6 {
+  background: #ffffff;
+  background-color: #cb3f77;
+  height: 90px;
+  width: 100%;
+  margin-top: 210px;
+
+  margin-right: auto;
+  border-top-left-radius: 200px;
+  border-bottom-left-radius: 200px;
+  position: absolute;
+  animation-name: moverse6;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
 }
-.item6{
-    background: #ffffff;
-    background-color: #cb3f77;
-    height: 90px;
+@keyframes moverse6 {
+  from {
     width: 100%;
-    margin-top: 210px;
-    
-    margin-right: auto;
-    border-top-left-radius: 200px;   
-    border-bottom-left-radius: 200px;
-    position: absolute;
-    animation-name: moverse6;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-out;
-   
-}
-@keyframes moverse6{
-    from{
-        width: 100%;
-        margin-left: 100%;
-    }
-    to{
-        width: 70%;
-        margin-left: 30%;
-    }
-    
+    margin-left: 100%;
+  }
+  to {
+    width: 70%;
+    margin-left: 30%;
+  }
 }
 
+.ojo1 {
+  background-color: #000000;
+  margin-left: 83%;
 
-.ojo1{
-    background-color: #000000;
-    margin-left: 83%;
-    
-    margin-top: 135px;
-    z-index: 1;
-    margin-right: auto;
-    border-radius: 100%;
-    position: absolute;
-    animation-name: aniojo1;
-    animation-duration: 6.5s;
-    animation-fill-mode: forwards;
-  
+  margin-top: 135px;
+  z-index: 1;
+  margin-right: auto;
+  border-radius: 100%;
+  position: absolute;
+  animation-name: aniojo1;
+  animation-duration: 6.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes aniojo1 {
+  from {
+  }
+  to {
+    width: 10px;
+    height: 10px;
+  }
+}
+.ojo2 {
+  background-color: #000000;
+  margin-left: 83%;
 
+  margin-top: 180px;
+  z-index: 1;
+  margin-right: auto;
+  border-radius: 100%;
+  position: absolute;
+  animation-name: aniojo1;
+  animation-duration: 6.5s;
+  animation-fill-mode: forwards;
 }
-@keyframes aniojo1{
-    from{
-        
-        
-    }
-    to{
-       
-        width: 10px;
-        height: 10px;
-        
-    }
-    
-    
+@keyframes aniojo1 {
+  from {
+  }
+  to {
+    width: 10px;
+    height: 10px;
+  }
 }
-.ojo2{
-    background-color: #000000;
-    margin-left: 83%;
-    
-    margin-top: 180px;
-    z-index: 1;
-    margin-right: auto;
-    border-radius: 100%;
-    position: absolute;
-    animation-name: aniojo1;
-    animation-duration: 6.5s;
-    animation-fill-mode: forwards;
-    
+.boca {
+  margin-left: 83%;
 
+  margin-top: 147px;
+  z-index: 1;
+  border-radius: 100px;
+  border-right: 20px solid #49152a;
+  position: absolute;
+  animation-name: aniojo2;
+  animation-duration: 6.5s;
+  animation-fill-mode: forwards;
 }
-@keyframes aniojo1{
-    from{
-        
-        
-    }
-    to{
-       
-        width: 10px;
-        height: 10px;
-        
-    }
-    
-    
-}
-.boca{
-    
-    margin-left: 83%;
-    
-    margin-top: 147px;
-    z-index: 1;
-    border-radius: 100px;
-    border-right: 20px solid #49152a;
-    position: absolute;
-    animation-name: aniojo2;
-    animation-duration: 6.5s;
-    animation-fill-mode: forwards;
- 
-
-}
-@keyframes aniojo2{
-    from{
-        
-        
-    }
-    to{
-       
-        width: 30px;
-        height: 30px;
-        
-    }
-    
-    
+@keyframes aniojo2 {
+  from {
+  }
+  to {
+    width: 30px;
+    height: 30px;
+  }
 }

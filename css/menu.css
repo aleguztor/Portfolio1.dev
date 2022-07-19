@@ -22,14 +22,15 @@ body{
 }
 
 header{
-    
+    position:relative;
+    background-color: #18654d;
     height: 100px;
     padding:0 50px;
     display: flex;
     color: white;
     justify-content: space-between;
     align-items: center;
-    
+    margin-bottom: 20px;
 }
 .menu{
     background-color: #18654d;
