@@ -27,6 +27,8 @@ h1.sobre-mi-h2 {
   background: #5c5c5c;
   border-radius: 100px;
   padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .estudios {
   display: flex;

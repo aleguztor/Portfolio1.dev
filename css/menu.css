@@ -22,18 +22,25 @@ body{
 }
 
 header{
+    z-index: 99;
     position:relative;
     background-color: #18654d;
     height: 100px;
     padding:0 50px;
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
     display: flex;
     color: white;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+   
 }
 .menu{
     background-color: #18654d;
+   
     float: right;
     
 }
@@ -71,12 +78,14 @@ header{
 #banner{
     padding: 0 50px;
     position: relative;
+    padding-top: 112px;
     
 }
 .contenido-banner{
     
     position: relative;
     height: 100%;
+  
     display: flex;
     flex-direction: column;
     justify-content: center;
