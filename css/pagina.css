@@ -5,6 +5,7 @@ h1.primario {
   text-align: center;
   transition: 0.3s;
 }
+
 h1.secundario {
   color: #ffffff;
   font-size: 50px;
@@ -12,6 +13,7 @@ h1.secundario {
   font-weight: 100;
   transition: 0.3s;
 }
+
 .boton-empezar {
   text-decoration: none;
   color: #8acf65;
@@ -23,16 +25,20 @@ h1.secundario {
   margin-top: 20px;
   transition: 0.3s;
 }
+
 .boton-empezar:hover {
   background: #3133aa;
 }
+
 hr {
   background-color: #8acf65;
   border-color: #8acf65;
   width: 700px;
   height: 5px;
 }
+
 @media (max-width: 521px) {
+
   /*HEADER*/
   h1.primario {
     font-size: 38px;
@@ -40,12 +46,14 @@ hr {
     text-align: left;
     transition: 0.3s;
   }
+
   h1.secundario {
     font-size: 32px;
     margin-top: 32px;
     text-align: left;
     transition: 0.3s;
   }
+
   .boton-empezar {
     margin-top: 36px;
     transition: 0.3s;
@@ -53,6 +61,7 @@ hr {
     /*nuev*/
   }
 }
+
 /*PROYECTOS*/
 .proyectos {
   background-color: #ffffff;
@@ -63,52 +72,59 @@ hr {
   align-items: center;
 
 }
+
 .proyectos h1 {
   font-size: 90px;
   transition: 0.4s;
 }
+
 /*CONTENIDO PROYECTOS*/
 @media (max-width: 452px) {
- .proyectos h1{
-  font-size: 60px;
-  transition: 0.4s;
- }
- .proyectos p {
-  padding-left: 30px;
-  padding-right: 30px;
-}
+  .proyectos h1 {
+    font-size: 60px;
+    transition: 0.4s;
+  }
+
+  .proyectos p {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 /*PAGINAS WEBS*/
-#container-proyectos{
+#container-proyectos {
   background-color: #cb3f77;
   padding-bottom: 30px;
   position: relative;
 }
+
 .contendor-webs {
-  
+
   padding-left: 10%;
   margin-top: 20px;
-  padding-right:10px;
+  padding-right: 10px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   transition: 0.4s;
 }
-.contendor-webs-animacion{
+
+.contendor-webs-animacion {
   margin-top: 10px;
   margin-right: 15px;
   font-size: 20px;
 
 }
-.contendor-webs-web{
+
+.contendor-webs-web {
   margin-top: 10px;
   margin-right: 15px;
 }
+
 .contendor-webs-animacion,
 .contendor-webs-web {
-  
-  background-color: #3133aa; 
+
+  background-color: #3133aa;
   height: 200px;
   width: 200px;
   color: #ffffff;
@@ -120,13 +136,14 @@ hr {
   align-content: center;
   -webkit-appearance: none;
 }
+
 .contendor-webs button:hover {
   -webkit-appearance: none;
   height: 230px;
   width: 360px;
   transition: 0.3s;
   animation-name: animaciondeboton;
-  background-image: url(imagenes/2331.PNG ) ;
+  background-image: url(imagenes/2331.PNG );
   background-size: 350px;
   font-size: 0px;
   color: #ffffff;
@@ -135,7 +152,7 @@ hr {
 
 
 footer {
-  
+
   padding-top: 50px;
   padding-bottom: 10px;
   background-color: #ffffff;
@@ -144,24 +161,27 @@ footer {
 
   justify-content: flex-end;
   padding-right: 170px;
- 
-  
+
+
 }
-.footer p{
-  text-align: center; 
+
+.footer p {
+  text-align: center;
 }
+
 @media (max-width: 768px) {
-  
+
   .contendor-webs {
-    
+
     display: flex;
     flex-direction: column;
     align-content: center;
-}
-footer{
-  padding-right: 0px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  }
+
+  footer {
+    padding-right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
