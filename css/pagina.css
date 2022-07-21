@@ -59,7 +59,6 @@ hr {
   padding-bottom: 30px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   position: relative;
   align-items: center;
 
@@ -70,7 +69,6 @@ hr {
 }
 /*CONTENIDO PROYECTOS*/
 @media (max-width: 452px) {
-  /*HEADER*/
  .proyectos h1{
   font-size: 60px;
   transition: 0.4s;
@@ -80,19 +78,28 @@ hr {
   padding-right: 30px;
 }
 }
+
+/*PAGINAS WEBS*/
+#container-proyectos{
+  background-color: #cb3f77;
+  padding-bottom: 30px;
+  position: relative;
+}
 .contendor-webs {
+  
   padding-left: 10%;
   margin-top: 20px;
   padding-right:10px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-bottom: 100px;
   transition: 0.4s;
 }
 .contendor-webs-animacion{
   margin-top: 10px;
   margin-right: 15px;
+  font-size: 20px;
+
 }
 .contendor-webs-web{
   margin-top: 10px;
@@ -100,9 +107,8 @@ hr {
 }
 .contendor-webs-animacion,
 .contendor-webs-web {
-  background: linear-gradient(to bottom,#3133aa , #686ae4);
- 
-  border-radius: 40px;
+  
+  background-color: #3133aa; 
   height: 200px;
   width: 200px;
   color: #ffffff;
@@ -116,30 +122,46 @@ hr {
 }
 .contendor-webs button:hover {
   -webkit-appearance: none;
-  height: 250px;
-  width: 250px;
+  height: 230px;
+  width: 360px;
   transition: 0.3s;
-  background-color: #cb3f77;
   animation-name: animaciondeboton;
-  background: linear-gradient(to top, rgb(201, 82, 122), #3133aa);
+  background-image: url(imagenes/2331.PNG ) ;
+  background-size: 350px;
+  font-size: 0px;
   color: #ffffff;
 
 }
 
-.contendor-webs-animacion h1 {
-  font-size: 32px;
-}
 
 footer {
-  margin-top: 100px;
-  padding-bottom: 300px;
+  
+  padding-top: 50px;
+  padding-bottom: 10px;
   background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: flex-end;
+  padding-right: 170px;
+ 
+  
 }
-@media (max-width: 545px) {
+.footer p{
+  text-align: center; 
+}
+@media (max-width: 768px) {
   
   .contendor-webs {
+    
     display: flex;
     flex-direction: column;
     align-content: center;
+}
+footer{
+  padding-right: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 }
