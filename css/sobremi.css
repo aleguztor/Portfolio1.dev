@@ -1,6 +1,7 @@
 #sobre-mi {
+ 
   display: flex;
-  margin-top: 310px;
+ 
   padding-left: 50px;
   padding-right: 50px;
   flex-wrap: wrap;
@@ -46,4 +47,5 @@ h1.sobre-mi-h2 {
         flex-direction: row;
       
       }
+    
   }
