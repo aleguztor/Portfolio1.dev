@@ -29,6 +29,7 @@ h1.secundario {
   margin-top: 50px;
   transition: 0.3s;
   cursor: pointer;
+
 }
 
 .boton-empezar:hover {
@@ -156,13 +157,13 @@ hr {
 
 }
 
-.contendor-webs-web {
+.contendor-webs-saltando {
   margin-top: 10px;
   margin-right: 15px;
 }
 
 .contendor-webs-animacion,
-.contendor-webs-web {
+.contendor-webs-saltando {
 
   background-color: #3133aa;
   height: 200px;
@@ -175,21 +176,36 @@ hr {
   border-style: solid;
   align-content: center;
   -webkit-appearance: none;
+  background-position: center;
 }
 
-.contendor-webs button:hover {
+
+.contendor-webs-animacion:hover{
   -webkit-appearance: none;
-  height: 230px;
-  width: 360px;
+  transform: scale(1.1);
   transition: 0.3s;
-  animation-name: animaciondeboton;
+
   background-image: url(imagenes/2331.PNG );
-  background-size: 350px;
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   font-size: 0px;
   color: #ffffff;
-
 }
+.contendor-webs-saltando:hover{
+  -webkit-appearance: none;
+  transform: scale(1.1);
+  transition: 0.3s;
 
+  background-image: url(imagenes/logo.png );
+  
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 0px;
+  color: #ffffff;
+}
 
 footer {
 
